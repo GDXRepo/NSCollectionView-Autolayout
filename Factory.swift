@@ -23,7 +23,7 @@ struct Factory {
         collectionView.wantsLayer = true
         collectionView.layer!.backgroundColor = backgroundColor.cgColor
         collectionView.collectionViewLayout = flowLayout
-        collectionView.maxItemSize = NSSize(width: maxItemSize.width, height: maxItemSize.height) // important!
+        collectionView.maxItemSize = maxItemSize // important!
         collectionView.maxNumberOfColumns = Int(columns)
         collectionView.isSelectable = selectable
         collectionView.allowsMultipleSelection = allowsMultipleSelection
